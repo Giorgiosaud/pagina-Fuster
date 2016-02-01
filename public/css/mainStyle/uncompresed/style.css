@@ -1,0 +1,354 @@
+/*!
+* Style FusterPl made by Zonapro.net
+* Copyright 2014 Zonapro.Net
+*/
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+#loadingScreen{
+  height: 100%;
+  width:100%;
+  background-color: #404041;
+  position: fixed;
+  display: table;
+  z-index: 4;
+}
+.svgImage {
+text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  fill:white;
+}
+
+.basePanel{
+	background-image: url('../img/fondo1.jpg');
+	background-size: contain;
+	position: fixed;
+	width: 100%;
+	z-index: -1;
+    background-repeat: no-repeat;
+  background-position-x:50% ;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.pantalla{
+	z-index: 2;
+	position: relative;
+}
+.flecha{
+	position: absolute;
+	height: 60px;
+	width: 60px;
+	bottom: 10%;
+	left: 50%;
+	background-size: cover;
+	cursor: pointer;
+}
+.flin{
+	background-image: url('../img/flecha.png');
+}
+.flact{
+	background-image: url('../img/flecha2.png');
+}
+#separador{
+	height: 100%;
+	width: 10%;
+	background-color: rgba(206, 204, 204, 0.7);
+	float: right;
+}
+#imagenContacto{
+  height: 100%;
+  width: 100%;
+  background-image: url('../img/fondo2.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x:50% ;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.logo img{
+  position: relative;
+  width: 80%;
+}.logo{
+  display: inline;
+  }
+.clearfix{
+  clear: both;
+
+}
+.descripcion{
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  color:rgb(69, 67, 67);
+  text-align: center;
+  line-height: 2.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+
+}
+.formulario{
+  font-family: 'Open Sans', sans-serif;
+  color:rgb(73, 221, 182);
+}
+.tituloFormulario {
+  padding: 2em;
+  font-size: 2em;
+}
+.conteneLogo{
+  position: relative;
+  text-align: center;
+}
+
+.logoF{
+	height: 30%;
+text-align: center;
+	/*background-color: blue;*/
+  /*position:relative*/
+
+	width: 100%;
+}
+.logoFuster{
+  text-align: center;
+	/*background-color: green;*/
+	width: 100%;
+}
+.logoTopF{
+  position: relative;
+  bottom: 0;
+}
+#barraNavegacion{
+  position: fixed;
+  /*display: none;*/
+  width: 100%;
+  background-color: #333333;
+  border-bottom:solid rgb(73, 221, 182) 0px;
+  z-index: 3;
+  padding: 10px;
+}
+#barraNavegacion ul{
+  list-style: none;
+  display: table;
+  width: 100%;
+
+
+}
+#barraNavegacion ul li{
+   display: table-cell;
+   vertical-align: middle;
+   font-family: 'Open Sans', sans-serif;
+   color: #fff;
+   font-weight: 300;
+   cursor: pointer;
+}
+#barraNavegacion ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+.activeMenu a{
+  color: rgb(73, 221, 182) !important;
+  /*border-bottom: solid rgb(73, 221, 182) 2px;*/
+}
+.menuElement{
+  text-align: center;
+}
+.slider2{
+height: 50%;
+background-color: rgba(0, 0, 0, 0.65);
+margin-top: 12.5%;
+/*overflow: hidden;*/
+position: relative;
+}
+.slider {
+height: 50%;
+background-color: rgba(0, 0, 0, 0.65);
+margin-top: 12.5%;
+overflow: hidden;
+position: relative;
+}
+.elemento{
+  float: left;
+  display: table;
+}
+.tituloSlide{
+  display: table-cell;
+  vertical-align: middle;
+  width: 35%;
+  text-align: right;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 10%;
+  font-size: 3em;
+}
+.titulo2{
+  color:rgb(73, 221, 182);
+}
+.numero,.titulo,.titulo2{
+  text-align: center;
+}
+.numero {
+font-size: 2em;
+}
+.contentSlide{
+ display: table-cell;
+  vertical-align: middle;
+  width: 65%;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  padding-right: 10%;
+  font-size: 1.5em;
+font-weight: lighter;
+}
+.carousel-control{
+  cursor: pointer;
+}
+.indicadores {
+  display: table-cell;
+  vertical-align: middle;
+  position: absolute;
+
+}
+img.imgNav {
+height: 50px;
+
+}
+
+
+.arrow_box {
+  position: relative;
+}
+.arrow_box:after {
+  top: 100%;
+  left: -10%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.arrow_box:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-top-color: rgb(73, 221, 182);
+  border-width: 20px;
+  margin-left: -20px;
+}
+#sectionCapabilities{
+  height: 100%;
+padding: 15% 10%;
+font-family: 'Open Sans', sans-serif;
+  font-size: 3em;
+}
+.carousel-control.left{
+  display: none;
+}
+.carousel-control.right{
+  display: none;
+}
+
+.tituloServices,.tituloProjects{
+  color: rgb(73, 221, 182);
+}
+
+#arrowBottom{
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 20px 20px 0 20px;
+border-color: rgb(73, 221, 182) transparent transparent transparent;
+line-height: 0px;
+_border-color: #007bff #000000 #000000 #000000;
+_filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+position: absolute;
+bottom: -20px;
+left:-40px;
+}
+.carousel-control:hover, .carousel-control:focus{
+  color:rgb(73, 221, 182);
+}
+.indiceServicios {
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+.colIndiceServicio {
+display: inline-block;
+}
+.bajo {
+
+padding: 0.5em;
+}
+.alto {
+padding: 1em;
+
+}
+.colIndiceServicio {
+float: left;
+margin-left: 0.5em;
+}
+.todosLosIndicesServicios {
+display: inline-block;
+}
+.tituloDeServicio{
+  margin-top: 0.5em;
+  background-color: white;
+  max-width: 11em;
+  cursor: pointer;
+}
+.tituloDeServicio:hover
+{
+ background-color: rgb(73, 221, 182);
+}
+.bottomForm {
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+}
+.wrappermap         {width:80%;height:100%;margin:0 auto;background:#CCC}
+.h_iframemap        {position:relative;}
+.h_iframemap .ratio {display:block;width:100%;height:auto;}
+.h_iframemap iframe {position:absolute;top:0;left:0;width:100%; height:100%;}
+
+#content-wrapper, #example-wrapper {
+  height: 100%;
+}
+.scrollContainer {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%
+}
+.scrollContainer {
+  height: 100%;
+  margin: auto;
+}
+#example-wrapper .scrollContent {
+  height: 100%;
+}
+
+.horizontal.scrollContainer {
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+#example-wrapper.scrollContainer .scrollContent {
+  width: 100%;
+  height: auto;
+}
+#example-wrapper.scrollContainer.horizontal .scrollContent {
+  width: auto;
+  height: 100%;
+}
+#example-wrapper.horizontal {
+  white-space: nowrap;
+  font-size: 0;  /* fix for spaces between inline block divs */
+}
+#example-wrapper.horizontal div {
+  font-size: 13px;
+}
+#example-wrapper .scrollContent, #example-wrapper.horizontal .scrollContent {
+  font-size: 0;
+}
+#example-wrapper .scrollContent div {
+  font-size: 13px;
+}
+#example-wrapper section {
+}
